@@ -1,0 +1,37 @@
+form{
+    min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.form-main{
+    width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px; 
+  margin: auto;
+  align-items: flex-start;
+  padding: 32px;
+  border: 1px solid; 
+  border-radius: 16px; 
+  color: #5E5E5E;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.form-main input{
+    border: 1px solid #DADADA;
+    border-radius: 0.25rem; /* Equivalent to rounded */
+    width: 100%; /* Equivalent to w-full */
+    padding: 8px; /* Equivalent to p-2 */
+    margin-top: 4px;
+}
+
+.form-main button{
+    background-color: rgb(63, 78, 247);/* Assuming the primary color is defined as a CSS variable */
+    color: white;
+    width: 100%; /* Equivalent to w-full */
+    padding: 8px 0; /* Equivalent to py-2 */
+    margin: 8px 0; /* Equivalent to my-2 */
+    border-radius: 10px;/* Equivalent to rounded-md */
+    font-size: 16px;
+    border: none;
+}

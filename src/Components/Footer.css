@@ -1,0 +1,94 @@
+.footer-container {
+    background-color: #ffffff;
+    width: 88%;
+    margin: 40px  auto; 
+    /* border:  2px solid black; */
+  }
+  
+  /* Flex container to keep about, contact, contact2 in one row */
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* border: 2px solid green; */
+  }
+  
+  /* About section */
+  .about {
+    /* border: 2px solid gold; */
+    flex:5;
+    min-width: 300px;
+    color: gray;
+  }
+  
+  .about img {
+    width: 150px;
+  }
+  
+  .about p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* COMPANY */
+  .contact {
+    /* border: 2px solid greenyellow; */
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .contact p {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+   color: gray;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  
+  /* GET IN TOUCH */
+  .contact2 {
+    /* border: 2px solid gold; */
+    flex: 1;
+    min-width: 180px;
+  }
+  
+  .contact2 p {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact2 li {
+    color: gray;
+    margin-bottom: 6px;
+  }
+  
+  /* Copyright section */
+  .copyright {
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+  }
+  

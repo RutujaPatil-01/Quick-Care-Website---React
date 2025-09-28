@@ -1,0 +1,46 @@
+.maindiv{
+    height: 500px;
+    width: 88%;
+    margin: 40px  auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content:space-evenly;  
+    background-color: rgb(82, 95, 237);
+    border-radius: 18px;
+}
+
+.left{  
+    align-items: center;
+    color: white;
+} 
+.paragraph{  
+    font-size: 40px;
+    font-weight: 600;
+} 
+.right{
+    height: 528px;
+   align-items: center;
+   margin-bottom: 30px ;
+
+}
+.right img{
+    width: 100%;            
+    height: 100%;    
+       
+}
+
+.maindiv button{
+    height: 50px;
+    width: 220px;
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(63, 78, 247);
+    border-radius: 24px; 
+    font-size: 16px; 
+   text-decoration: none;
+     border: none;
+    transition: transform 0.2s ease-in-out; 
+}
+.maindiv button:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,44 @@
+.main-cont{
+    width: 88%;
+    margin: 40px  auto; 
+}
+.conthead {
+    text-align: center;
+    font-size: 24px;      
+    padding-top: 30px;
+    color: #707070;   
+}
+.about-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;     
+    margin-bottom: 112px; 
+    gap: 40px;            
+    font-size: 14px;     
+}
+.cont-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cont-para{
+    color: #6B7280;
+}
+
+.cont-para button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 16px 32px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.cont-para button:hover{
+    background-color: black;
+    color: white;
+}
