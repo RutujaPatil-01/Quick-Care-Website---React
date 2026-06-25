@@ -1,12 +1,36 @@
-# React + Vite
+# Quick Care Website – React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🩺 Project Overview
+Quick Care Website is a responsive healthcare appointment booking web application built using React JS. It allows users to browse services and book appointments through a simple and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Responsive and user-friendly UI  
+- Appointment booking interface  
+- Service listing section  
+- Reusable React components  
+- Clean navigation between pages  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React JS  
+- JavaScript (ES6)  
+- HTML5  
+- CSS3  
+
+---
+
+## 📁 Project Setup
+
+### Install dependencies
+npm install
+
+### Run project
+npm start
+
+---
+
+## 🔗 GitHub Repository
+https://github.com/RutujaPatil-01/Quick-Care-Website---React
